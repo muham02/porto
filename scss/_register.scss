@@ -1,0 +1,76 @@
+.register__parent{
+    width: 100%;
+    height: 100vh;
+    background:url('https://pranx.com/hacker/og.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.container{
+    width: 900px;
+    height:100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.register{
+    width: 300px;
+    height: 350px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: transparent;
+   backdrop-filter: blur(10px);
+}
+.register__inp{
+    width: 250px;
+    height: 35px;
+    color: #fff;
+    font-size: 21px;
+outline: none;
+border-radius: 14px;
+background: rgba(255, 255, 255, 0.411);
+border: none;
+margin:  10px 0;
+}
+.register__btn{
+    width: 120px;
+    height: 35px;
+    color: #fff;
+    border-radius: 16px;
+    background: rgba(110, 106, 106, 0.438);
+    border: none;
+
+}
+.register__btn:active{
+   
+    color: #000;
+    border-radius: 16px;
+    background:#fff;
+    border: none;
+    transition: all ease 0.2s;
+}
+.register__naviagation{
+    width: 500px;
+    height: 70px;
+    border-radius: 25px;
+    background: rgba(255, 255, 0, 0.966);
+}
+.navigation{
+    color: #000;
+    font-size: 21px;
+}
+.none{
+    display: none;
+}
+.block{
+    display: block;
+}
+.navigation{
+    text-align: center;
+    color: red;
+}
