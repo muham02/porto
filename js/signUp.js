@@ -9,6 +9,7 @@ function Users(name,email,password){
 }
 
 function sendId(e){
+  e.preventDefault()
 let name = e.target.children[0]
 let email = e.target.children[1]
 let password = e.target.children[2]
